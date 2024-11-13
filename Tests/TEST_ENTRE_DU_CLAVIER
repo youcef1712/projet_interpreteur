@@ -1,0 +1,12 @@
+//Calcul la somme des deux entiers saisie par un utilisateur et l affiche 
+int ent1,ent2,tmp;
+
+Console.WriteLine("Bonjour je vais vous calculer la somme de deux nombre");
+
+Console.WriteLine("entrer le premier entier s il vous plait: ");
+ent1 = Convert.ToInt32(Console.ReadLine());
+
+Console.WriteLine("\nSentrer le deuxieme entier s il vous plait : ");
+ent2 = Convert.ToInt32(Console.ReadLine());
+tmp = ent1 + ent2;
+Console.WriteLine("\n\nLe resultat de la somme des deux entiers est: " + Convert.ToString(tmp));
