@@ -1,0 +1,30 @@
+int a, b = 0;
+a = 1;
+string salutATous1 = "Salut !, c'est Youcef !";
+Console.WriteLine(salutATous1);
+string salutATous2 = "Salut !, c'est aboubakr !";
+Console.WriteLine(salutATous2);
+b = 2 * (8 + 2) + 1 * 5;
+Console.WriteLine("b = " + Convert.ToString(b));
+
+b = 1 / Convert.ToInt32("2");
+Console.WriteLine("b = " + Convert.ToString(b));
+
+int camarchepas = 3 / 5;
+Console.WriteLine("camarchepas = " + Convert.ToString(camarchepas));
+
+double camarche = 3 / 5;
+Console.WriteLine("camarche = " + Convert.ToString(camarche));
+
+
+
+
+Console.WriteLine("Veuillez saisir une chaine de caractères ");
+string SaisiCarac = Console.ReadLine();
+Console.WriteLine("Vous avez saisi: " + SaisiCarac + "\n");
+
+
+
+Console.WriteLine("Veuillez saisir un nombre: ");
+double SaisiNombre = Convert.ToDouble(Console.ReadLine());
+Console.WriteLine("Vous avez saisi: " + Convert.ToString(SaisiNombre));
